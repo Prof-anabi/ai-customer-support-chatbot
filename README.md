@@ -45,22 +45,21 @@ The tool creates an open ticket and returns a ticket ID. Its implementation is i
 ## Repository Layout
 
 ```text
-project/
+
 |-- README.md
-`-- starter/
-    |-- system_prompt.txt          # Active chatbot prompt
-    |-- online_shop_faq.md         # FAQ supplied to the prompt
-    |-- create_bug_report.py       # Lambda bug-report handler
-    |-- setup_gateway.py           # Creates the AgentCore Gateway and tool
-    |-- create_harness.py          # Creates or updates the AgentCore harness
-    |-- chat.py                    # Interactive terminal chat client
-    |-- generate-eval-dataset.py   # Generates a Bedrock Evaluations JSONL dataset
-    |-- cleanup_agentcore.py       # Removes AgentCore harness and gateway resources
-    |-- cloudformation-tool.yaml   # Lambda, DynamoDB, IAM, and tool resources
-    |-- cloudformation-testing.yaml # Evaluation S3 and IAM resources
-    |-- harness-tests-template.json
-    |-- harness-tests.json
-    |-- agentcore_config.json      # Generated AWS resource configuration
+|-- system_prompt.txt          # Active chatbot prompt
+|-- online_shop_faq.md         # FAQ supplied to the prompt
+|-- create_bug_report.py       # Lambda bug-report handler
+|-- setup_gateway.py           # Creates the AgentCore Gateway and tool
+|-- create_harness.py          # Creates or updates the AgentCore harness
+|-- chat.py                    # Interactive terminal chat client
+|-- generate-eval-dataset.py   # Generates a Bedrock Evaluations JSONL dataset
+|-- cleanup_agentcore.py       # Removes AgentCore harness and gateway resources
+|-- cloudformation-tool.yaml   # Lambda, DynamoDB, IAM, and tool resources
+|-- cloudformation-testing.yaml # Evaluation S3 and IAM resources
+|-- harness-tests-template.json
+|-- harness-tests.json
+|-- agentcore_config.json      # Generated AWS resource configuration
     
 ```
 
